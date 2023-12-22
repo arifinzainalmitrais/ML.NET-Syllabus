@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "classification": {
+      "commandName": "Project",
+      "commandLineArgs": "train ..\\..\\..\\Data\\sampledata.csv ..\\..\\..\\Data\\testdata.csv"
+    }
+  }
+}

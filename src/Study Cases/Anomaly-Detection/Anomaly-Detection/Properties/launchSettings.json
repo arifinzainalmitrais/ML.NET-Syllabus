@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "anomaly_detection": {
+      "commandName": "Project",
+      "commandLineArgs": "train ..\\..\\..\\Data\\sampledata.csv ..\\..\\..\\Data\\testdata.csv"
+    }
+  }
+}

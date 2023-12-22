@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "linear_regression": {
+      "commandName": "Project",
+      "commandLineArgs": "train ..\\..\\..\\Data\\sampledata.csv"
+    }
+  }
+}
