@@ -1,6 +1,10 @@
 {
   "profiles": {
-    "linear_regression": {
+    "predict": {
+      "commandName": "Project",
+      "commandLineArgs": "predict ..\\..\\..\\input.json"
+    },
+    "training": {
       "commandName": "Project",
       "commandLineArgs": "train ..\\..\\..\\Data\\sampledata.csv"
     }
