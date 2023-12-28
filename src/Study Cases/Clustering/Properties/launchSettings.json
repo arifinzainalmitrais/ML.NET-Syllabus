@@ -1,8 +1,16 @@
 {
   "profiles": {
-    "clustering": {
+    "training": {
       "commandName": "Project",
       "commandLineArgs": "train ..\\..\\..\\Data\\sampledata.csv ..\\..\\..\\Data\\testdata.csv"
+    },
+    "extract": {
+      "commandName": "Project",
+      "commandLineArgs": "extract ..\\..\\..\\TrainingData\\ ..\\..\\..\\TestData\\"
+    },
+    "run": {
+      "commandName": "Project",
+      "commandLineArgs": ""
     }
   }
 }

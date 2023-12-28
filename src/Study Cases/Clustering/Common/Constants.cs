@@ -2,7 +2,7 @@
 {
     public class Constants
     {
-        public const string MODEL_FILENAME = "chapter5.mdl";
+        public const string MODEL_FILENAME = "clustering.mdl";
 
         public const string SAMPLE_DATA = "sampledata.csv";
 
