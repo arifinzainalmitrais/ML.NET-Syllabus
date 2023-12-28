@@ -1,12 +1,12 @@
 ﻿using System;
 using System.IO;
 
-using logistic_rregression.ML.Base;
-using logistic_rregression.ML.Objects;
+using logistic_regression.ML.Base;
+using logistic_regression.ML.Objects;
 
 using Microsoft.ML;
 
-namespace logistic_rregression.ML
+namespace logistic_regression.ML
 {
     public class Trainer : BaseML
     {
@@ -27,7 +27,7 @@ namespace logistic_rregression.ML
                 .Append(MlContext.Transforms.Text.FeaturizeText("NGrams", nameof(FileInput.Strings)))
                 .Append(MlContext.Transforms.Concatenate("Features", "NGrams"));
 
-            var trainer = MlContext.BinaryClassification.Trainers.SdcaLogisticlogistic_rregression(labelColumnName: "Label", featureColumnName: "Features");
+            var trainer = MlContext.BinaryClassification.Trainers.SdcaLogisticRegression(labelColumnName: "Label", featureColumnName: "Features");
 
             var trainingPipeline = dataProcessPipeline.Append(trainer);
 

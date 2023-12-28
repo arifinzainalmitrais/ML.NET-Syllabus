@@ -2,10 +2,10 @@
 using System.IO;
 using System.Text;
 
-using logistic_rregression.Common;
-using logistic_rregression.ML.Base;
+using logistic_regression.Common;
+using logistic_regression.ML.Base;
 
-namespace logistic_rregression.ML
+namespace logistic_regression.ML
 {
     public class FeatureExtractor : BaseML
     {

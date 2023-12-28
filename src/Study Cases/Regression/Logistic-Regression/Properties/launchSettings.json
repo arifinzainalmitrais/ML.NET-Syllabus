@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "training": {
+      "commandName": "Project",
+      "commandLineArgs": "train ..\\..\\..\\Data\\sampledata.csv"
+    },
+    "extract": {
+      "commandName": "Project",
+      "commandLineArgs": "extract ..\\..\\..\\temp_data"
+    },
+    "run": {
+      "commandName": "Project",
+      "commandLineArgs": ""
+    }
+  }
+}

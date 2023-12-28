@@ -1,6 +1,6 @@
 ﻿using Microsoft.ML.Data;
 
-namespace logistic_rregression.ML.Objects
+namespace logistic_regression.ML.Objects
 {
     public class FileInput
     {

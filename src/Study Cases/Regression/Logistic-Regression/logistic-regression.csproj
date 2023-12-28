@@ -11,4 +11,8 @@
     <PackageReference Include="System.Text.Encoding.CodePages" Version="4.6.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="temp_data\" />
+  </ItemGroup>
+
 </Project>

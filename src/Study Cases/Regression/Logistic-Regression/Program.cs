@@ -1,8 +1,8 @@
 ﻿using System;
 
-using logistic_rregression.ML;
+using logistic_regression.ML;
 
-namespace logistic_rregression
+namespace logistic_regression
 {
     class Program
     {

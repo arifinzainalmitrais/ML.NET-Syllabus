@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-using logistic_rregression.Common;
+using logistic_regression.Common;
 
 using Microsoft.ML;
 
-namespace logistic_rregression.ML.Base
+namespace logistic_regression.ML.Base
 {
     public class BaseML
     {
