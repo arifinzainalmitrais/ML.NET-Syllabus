@@ -1,8 +1,12 @@
 {
   "profiles": {
-    "classification": {
+    "training": {
       "commandName": "Project",
       "commandLineArgs": "train ..\\..\\..\\Data\\sampledata.csv ..\\..\\..\\Data\\testdata.csv"
+    },
+    "predict": {
+      "commandName": "Project",
+      "commandLineArgs": "predict ..\\..\\..\\input.json"
     }
   }
 }
