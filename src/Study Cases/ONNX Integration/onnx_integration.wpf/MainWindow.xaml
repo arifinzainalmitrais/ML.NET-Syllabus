@@ -10,7 +10,7 @@
         WindowState="Maximized"
         WindowStartupLocation="CenterScreen"
         Background="#1e1e1e"
-        Title="Chapter 13" Height="450" Width="800">
+        Title="ONNX integration" Height="450" Width="800">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
